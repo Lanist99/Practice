@@ -1,0 +1,27 @@
+/* reset style */
+@import url(reset.css);
+/* ________ */
+body {
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #9C9C9C;
+    background-color: #0D0D11;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+
+[class*= '__container'] {
+    min-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page{
+    flex: 1 1 auto;
+}
+
