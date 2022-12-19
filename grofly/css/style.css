@@ -25,3 +25,65 @@ body {
     flex: 1 1 auto;
 }
 
+.button {
+}
+.header {
+}
+.header__container {
+    display: flex;
+    column-gap: 35px;
+    min-height: 116px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header__logo {
+}
+.header__menu {
+    flex: 1 1 auto
+}
+.menu {
+}
+.menu_icon {
+    display: none;
+}
+.icon__menu {
+    display: none;
+}
+.menu__list {
+    display: flex;
+    column-gap: 35px;
+    justify-content: flex-end;
+}
+.menu__item {
+}
+.menu__link {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.62;
+}
+.header__cart {
+}
+.cart-header {
+    color: #fff;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.cart-header__text {
+    font-size: 18px;
+    
+    line-height: 1.55; /* 28px/18 */
+}
+.cart-header__quantitu {
+    background: rgba(129, 129, 139, 0.3);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header__button {
+}
