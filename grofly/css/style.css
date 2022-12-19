@@ -26,6 +26,18 @@ body {
 }
 
 .button {
+    background: #3D96F4;
+    border-radius: 50px;
+    padding: 16px 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.22; /* 22px/18 */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+
+color: #FFFFFF;
+
 }
 .header {
 }
@@ -35,6 +47,7 @@ body {
     min-height: 116px;
     padding-top: 5px;
     padding-bottom: 5px;
+    align-items: center;
 }
 .header__logo {
 }
@@ -62,10 +75,10 @@ body {
     line-height: 1.62;
 }
 .header__cart {
+    
 }
 .cart-header {
     color: #fff;
-    align-items: center;
     display: flex;
     gap: 5px;
 }
