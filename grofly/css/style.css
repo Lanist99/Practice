@@ -39,6 +39,9 @@ body {
     color: #FFFFFF;
     transition: 0.3s ease 0s;
 }
+.button_dark{
+    background: rgba(129, 129, 139, 0.2);
+}
 @media (max-width: 991.98px ) {
     .button {
         padding: 14px 20px;
@@ -239,5 +242,45 @@ body {
         padding-top: 3px;
         border-radius: 0;
         background: url(/grofly/img/cart.svg) center / auto 100% no-repeat;
+    }
+}
+/* page main_________________________________________________________ */
+.main {
+    padding-top: 160px;
+}
+.main__container {
+    display: flex;
+    gap: 32px;
+}
+.main__content {
+    flex: 0  1 50%;
+}
+.main__title {
+}
+.main__text {
+}
+.main__actions {
+}
+.main__botton {
+}
+.button_dark {
+}
+.main__images {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+}
+.images-main {
+}
+.images-main__item {
+}
+@media (max-width: 991.98px ) {
+    .main {
+        padding-top: 120px;
+    }
+}
+@media (max-width: 560px) {
+    .main {
+        padding-top: 100px;
     }
 }
