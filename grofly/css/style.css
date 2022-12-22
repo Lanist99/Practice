@@ -53,13 +53,36 @@ body {
 .button_dark:hover {
     background-color: #1e252e;
 }
-.text {
-    font-size: 24px;
-    line-height: 1.5;
-} 
-.text_big {
+
+.main__header {
+}
+.header-main {
+}
+.header-main__title {
+    font-weight: 500;
+    font-size: 51px;
+    line-height: 1.19; /* 61px/51 */
+    color: #FFFFFF;
+    max-width: 520px;
+    position: relative;
+}
+.header-main__title:not(:last-child) {
+    margin-bottom: 28px;
+}
+.header-main__text {
     font-size: 18px;
     line-height: 1.5; /* 27/18 */
+    color: #9C9C9C;
+    max-width: 500px;
+}
+.header-main__text:not(:last-child) {
+    margin-bottom: 35px;
+}
+.header-main__actions {
+    display: flex;
+    gap: 32px;
+}
+.header-main__botton {
 }
 .header {
     position: fixed;
@@ -267,22 +290,13 @@ body {
     flex: 0 1 50%;
     align-self: center;
 }
-.main__title::before {
-    content: "";
-    background: url(/grofly/img/main/decor.svg);
+.main__header {
+    
 }
-.main__title {
-    font-weight: 500;
-    font-size: 51px;
-    line-height: 1.19; /* 61px/51 */
-    color: #FFFFFF;
-    max-width: 520px;
+.main__header{
     position: relative;
 }
-.main__title:not(:last-child) {
-    margin-bottom: 28px;
-}
-.main__title::before {
+.main__header::before {
     content: "";
     background: url(/grofly/img/main/decor.svg) 0 0 / 100% no-repeat;
     width: 122px;
