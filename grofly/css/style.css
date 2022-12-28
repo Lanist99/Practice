@@ -108,6 +108,14 @@ body {
 .header-main__text:not(:last-child) {
     margin-bottom: 35px;
 }
+.header-main__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header-main__body .header-main__text {
+    margin: 0;
+}
 .header-main__actions {
     display: flex;
     column-gap: 32px;
@@ -138,6 +146,7 @@ body {
 
 }
 .header-main__botton {
+    align-self: flex-end;
 }
 @media (max-width: 991.98px ) {
     .header-main__title {
@@ -165,8 +174,8 @@ body {
 }
 .header__container {
     display: flex;
-    column-gap: 35px;
     min-height: 116px;
+    column-gap: 35px;
     padding-top: 5px;
     padding-bottom: 5px;
     align-items: center;
@@ -350,7 +359,7 @@ body {
         background: url(/grofly/img/cart.svg) center / auto 100% no-repeat;
     }
 }
-/* page main_________________________________________________________ */
+/* ============================ page main ========================================= */
 .main {
     padding-top: 160px;
 }
@@ -688,4 +697,62 @@ body {
     .advantages__items {
         grid-template-columns: auto;
     }
+}
+/* ========================== section testimonials =============================================== */
+.testimonials {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.testimonials__container {
+}
+.testimonials__header {
+}
+.testimonials__header .header-main__title {
+    max-width: none;
+}
+.testimonials__header .header-main__text {
+    max-width: 740px;
+}
+.testimonials__items {
+}
+.testimonials__item {
+}
+.item-testimonial {
+}
+.item-testimonial__user {
+}
+.user-testimonial {
+}
+.user-testimonial__avatar {
+}
+.user-testimonial__avatar_1 {
+}
+.user-testimonial__body {
+}
+.user-testimonial__title {
+}
+.user-testimonial__company {
+}
+.item-testimonial__title {
+}
+.item-testimonial__text {
+}
+.item-testimonial__rating {
+}
+
+@media (max-width: 991.98px ) {
+    .testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+   
+}
+@media (max-width: 767.98px ) {
+    .testimonial {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* .testimonial__container {
+        flex-direction: column;
+    } */
 }
