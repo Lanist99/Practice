@@ -276,4 +276,8 @@
     .form-main-block__input {
         padding: 0px 15px;
     }
+    .partners-main-block__items {
+        justify-content: space-evenly;
+        gap: 10px;
+    }
 }
