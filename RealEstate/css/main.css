@@ -60,7 +60,8 @@
 .page__main {
 }
 .main__block {
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
+    padding-bottom: 110px;
 }
 .main-block__container {
     position: relative;
@@ -92,6 +93,8 @@
 
 .content-main-block {
     padding-top: 40px;
+    position: relative;
+    z-index: 2;
 }
 .content-main-block__body {
     padding-right: 80px;
@@ -123,13 +126,13 @@
     position: relative;
     z-index: 33;
     display: flex;
-    height: 86px;
     margin-right: -188px;
-    background:url("/RealEstate/img/icons/home.svg") #fff  33px 50% no-repeat;
+    background:url("/RealEstate/img/icons/home.svg") #fff  33px 32px no-repeat;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
 
 }
 .form-main-block__input {
+    height: 86px;
     font-size: 20px;
     padding: 0 0 0 74px;
     background-color: transparent;
@@ -189,7 +192,7 @@
     position: static;
     height: 20px;
     width: 11px;
-    background: url("../img/icons/arrow.svg") 0 0 no-repeat;
+    background: url("../img/icons/arrow.svg") 0 0 /100% no-repeat;
     
 }
 .body-main-block__arrow::after {
@@ -213,11 +216,64 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 5px;
+    column-gap: 15px;
     justify-content: space-between;
 }
 .partners-main-block__item {
 }
 .partners-main-block__item img {
     max-width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+    .main-block__container {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .content-main-block__body {
+        padding-right: 0;
+    }
+    .body-main-block {
+        display: block;
+    }
+    .form-main-block {
+        margin-right: 0;
+    }
+    .body-main-block__content{
+        margin-bottom: 40px;
+    }
+    .main-block__body {
+        margin-bottom: 40px;
+    }
+    .partners-main-block {
+        position: relative;
+        z-index: 2;
+        max-width: none;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .partners-main-block__items {
+        justify-content: center;
+    }
+    .content-main-block__title {
+        font-size: 30px; 
+        line-height: 1.2;   
+    }
+    .form-main-block {
+        display: block;
+    }
+    .form-main-block__button {
+        width: 100%;
+        padding: 20px 15px;
+    }
+}
+@media (max-width: 479.98px) {
+    .form-main-block {
+        background: #fff;
+    }
+    .form-main-block__input {
+        padding: 0px 15px;
+    }
 }
