@@ -57,6 +57,16 @@
     }
 }
 /* ============================ */
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+.title_center {
+    text-align: center;
+}
+/* ============================ */
 .page__main {
 }
 .main__block {
@@ -280,4 +290,61 @@
         justify-content: space-evenly;
         gap: 10px;
     }
+}
+/* =============================================== section who =================== */
+.page__how {
+}
+.how {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.how__container {
+}
+.how__title {
+    margin-bottom: 70px;
+}
+.how__items {
+    padding: 0 35px;
+    display: grid;
+    grid-template-columns: repeat(3 ,auto);
+    gap: 30px;
+    justify-content: space-between;
+}
+.how__item {
+}
+.item-how {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+.item-how__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.item-how__icon_1 {
+    background: #9672FF;
+    box-shadow: 0px 100px 80px rgba(150, 114, 255, 0.07), 0px 64.8148px 46.8519px rgba(150, 114, 255, 0.0531481), 0px 38.5185px 25.4815px rgba(150, 114, 255, 0.0425185), 0px 20px 13px rgba(150, 114, 255, 0.035), 0px 8.14815px 6.51852px rgba(150, 114, 255, 0.0274815), 0px 1.85185px 3.14815px rgba(150, 114, 255, 0.0168519);
+}
+.item-how__icon_2 {
+    background: #4DDFFD;
+    box-shadow: 0px 100px 80px rgba(77, 223, 253, 0.07), 0px 64.8148px 46.8519px rgba(77, 223, 253, 0.0531481), 0px 38.5185px 25.4815px rgba(77, 223, 253, 0.0425185), 0px 20px 13px rgba(77, 223, 253, 0.035), 0px 8.14815px 6.51852px rgba(77, 223, 253, 0.0274815), 0px 1.85185px 3.14815px rgba(77, 223, 253, 0.0168519);
+}
+.item-how__icon_3 {
+    background: #F2B8EC;
+    box-shadow: 0px 100px 80px rgba(242, 184, 236, 0.07), 0px 64.8148px 46.8519px rgba(242, 184, 236, 0.0531481), 0px 38.5185px 25.4815px rgba(242, 184, 236, 0.0425185), 0px 20px 13px rgba(242, 184, 236, 0.035), 0px 8.14815px 6.51852px rgba(242, 184, 236, 0.0274815), 0px 1.85185px 3.14815px rgba(242, 184, 236, 0.0168519);
+}
+.item-how__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.item-how__text {
+    font-size: 16px;
+    line-height: 26px;
 }
