@@ -343,10 +343,10 @@
     position: absolute;
     /* right: 0; */
     top: 41px;
-    transform: translate(86.5%,0px);
+    transform: translate(86.5%,0px) rotate(-180deg);
     width: 100%;
     height: 11px;
-    background: url(/RealEstate/img/how/border_2.svg) 0 0 no-repeat;
+    background: url(/RealEstate/img/how/border_1.svg) 0 0 no-repeat;
     max-width: 210px; 
 }
 .item-how_1 .item-how__icon {
