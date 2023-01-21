@@ -507,6 +507,7 @@
 @media(max-width:767.98px) {
     .header-deals__link {
         width: 100%;
+        justify-content: center;
     }
 }
 .header-deals__link:hover {
@@ -554,14 +555,15 @@
 .tabs-deals__body {
 }
 .tabs-deals__item {
+    display: none;
 }
-
-.item-tabs {
+.tabs-deals__item.active {
+    display: block;
 }
 .item-tabs__items {
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
 }
 .item-tabs__item {
     position: relative;
