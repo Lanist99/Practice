@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+    display: flex;
+    margin: 10px 0 10px auto;
+    width: 55%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin-left: 3px;
+    color: black;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color:lightgreen;
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.15s;
+}
+
+.intro-section {
+    height: 300px;
+    background: url("https://images.pexels.com/photos/16023919/pexels-photo-16023919/free-photo-of-kod-html.jpeg")no-repeat;
+    background-size: cover;
+
+}
+.welcome-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 500px;
+    font-size: 2rem;
+    font-family: inherit;
+}
+.message img {
+    max-width: 100%;
+}
+
+section {
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.my-info {
+    display: block ;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.skills-section {
+    background: #000;
+    color: #fff;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.skill-information {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skill-name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.skill-information progress {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.skill-information progress::-webkit-progress-value {
+    background-color: #fff;
+    border-radius: 0;
+}
+.skill-information progress::-webkit-progress-bar {
+    background-color: #000;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-container img{
+    display: flex;
+    min-width: 300px;
+    max-height: 300px;
+}
+
+.projects-container .image-box {
+    margin: 5px;
+}
+
+.image-box a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact-section {
+    background-color: #000;
+    margin-top: 50px;
+    padding: 50px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contact-section a {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
